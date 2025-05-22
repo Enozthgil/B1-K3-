@@ -1,0 +1,219 @@
+📘 Uitgewerkte Examenopdracht: B1-K3 W1 en W2
+🔧 Werkproces 1 – Casus Technovam: Installatie en Configuratie Laptop
+✅ 1. Inventarisatie van Applicaties
+Wat je doet:
+
+Open Bijlage 1.1 Applicaties Allround
+
+Kijk welke applicaties ≥30% gekozen zijn.
+
+Welke applicaties kies je (voorbeeld, vul aan met de echte cijfers uit bijlage 1.1):
+
+Browsers: Google Chrome (✔), Opera (✔)
+
+Tools: Notepad++ (✔), Acrobat Reader (✔)
+
+Office: Microsoft Office (✔)
+
+Video: Media Player Classic (✔), VLC (✔)
+
+Compressie: 7-Zip (✔), WinRAR (✔)
+
+Videoconferencing: Microsoft Teams (63%) (✔)
+
+Virusscanner: Bitdefender (hoogste percentage) (✔)
+
+Wat je noteert in Bijlage 1.2:
+
+Applicatie	32/64-bit	Taal	Updatecontrole	Kosten
+Google Chrome	64-bit	NL	Ja	Nee
+VLC Media Player	64-bit	NL	Nee	Nee
+Microsoft Teams	64-bit	NL	Ja	Nee
+...	...	...	...	...
+
+📸 Screenshot: Maak een screenshot van de ingevulde lijst in Bijlage 1.2.
+
+✅ 2. Instellingen Configureren in Windows 10
+Pas deze instellingen aan:
+
+Diagnostische gegevens: op Ervaringen op maat
+→ Instellingen > Privacy > Diagnostische gegevens
+
+Updates: actieve uren: 20:00 – 06:00
+→ Instellingen > Update en beveiliging
+
+Reclame-ID: uitschakelen
+→ Instellingen > Privacy > Algemeen
+
+Slaapstand: 15 minuten
+→ Instellingen > Systeem > Energiebeheer
+
+Taal: Engels toevoegen
+→ Instellingen > Tijd en taal
+
+Bluetooth: uitschakelen
+→ Instellingen > Apparaten > Bluetooth
+
+📸 Screenshot: Van elk instellingenscherm, voeg toe aan Bijlage 1.2.
+
+✅ 3. Microsoft Office Installeren via Office Deployment Tool
+Stappen:
+
+Download Office Deployment Tool
+
+Pak het uit, plaats hierin:
+
+start-office-Technovam.cmd
+
+Office2019_Technovam.xml
+
+Pas XML aan:
+
+xml
+Kopiëren
+Bewerken
+<Configuration>
+  <Add OfficeClientEdition="64" Channel="MonthlyEnterprise">
+    <Product ID="ProPlus2019Retail">
+      <Language ID="nl-nl" />
+      <ExcludeApp ID="Access" />
+      <ExcludeApp ID="Publisher" />
+      <ExcludeApp ID="Outlook" />
+      <ExcludeApp ID="OneNote" />
+      <ExcludeApp ID="SkypeforBusiness" />
+    </Product>
+  </Add>
+  <Display Level="None" AcceptEULA="TRUE" />
+  <Property Name="AUTOACTIVATE" Value="1" />
+  <Property Name="Company" Value="Technovam B.V." />
+  <Property Name="Description" Value="Office-configuratie van Technovam." />
+</Configuration>
+Pas CMD-bestand aan:
+
+cmd
+Kopiëren
+Bewerken
+cd "C:\Pad\Naar\Office\Map"
+setup.exe /configure Office2019_Technovam.xml
+pause
+Voer batchbestand uit.
+
+Configureer Office-apps:
+
+Word: Georgia Pro Light, tabs 2,5 cm, alineaafstand
+
+Excel: Themakleuren kleurrijk, foutcontrole UIT, autoherstel op 10 min
+
+PowerPoint: Gebruik NetJob-thema, letter
+
+
+
+
+
+meer inhoud over office hierbenen
+
+
+
+Bijlage 1.2 – Office Configuratie
+1. Microsoft Word instellen
+Stap 1: Lettertype wijzigen naar Georgia Pro Light
+Open Word.
+
+Klik op Start (tabblad).
+
+Ga naar het vakje Lettertype.
+
+Selecteer Georgia Pro Light uit de lijst.
+
+Klik op Instellen als standaard (onderin het venster).
+
+Stap 2: Alinea-afstanden aanpassen
+Klik op het tabblad Start.
+
+Klik op het kleine pijltje rechtsonder in het vak Alinea.
+
+Bij Afstand:
+
+Voor: 0 pt
+
+Na: 6 pt
+
+Regelafstand: Enkel
+
+Stap 3: Tabs instellen op elke 2,5 cm
+Klik weer op het pijltje bij Alinea.
+
+Klik onderaan op Tabs…
+
+Vul bij Tabstoppositie: 2,5 cm
+
+Kies Links en klik op Instellen, dan op OK.
+
+2. Microsoft Excel instellen
+Stap 1: Thema aanpassen naar Kleurrijk
+Open Excel.
+
+Ga naar Bestand > Opties.
+
+Bij Algemeen:
+
+Onder Office-thema: Kies Kleurrijk.
+
+Stap 2: Foutcontrole uitschakelen
+Ga in Excel naar Bestand > Opties.
+
+Klik op Formules in het linkermenu.
+
+Haal het vinkje weg bij:
+"Foutencontrole inschakelen op achtergrond".
+
+Stap 3: Auto-herstel op 10 minuten instellen
+Ga naar Bestand > Opties.
+
+Klik op Opslaan.
+
+Zet:
+
+“Automatisch herstellen elke...” op 10 minuten
+
+3. Microsoft PowerPoint instellen
+Stap 1: Thema NetJob gebruiken en aanpassen
+Open PowerPoint.
+
+Klik op het tabblad Ontwerpen.
+
+Kies het thema NetJob (of een neutraal thema als NetJob niet bestaat).
+
+Klik op Lettertypen > Nieuwe lettertypen maken:
+
+Koptekstlettertype: Georgia
+
+Tekstlettertype: Georgia
+
+Klik op Opslaan als NetJob aangepast
+
+Stap 2: Kleuren instellen op rood-violet
+In het tabblad Ontwerpen, klik op Kleuren > Aangepaste kleuren.
+
+Kies hoofdkleuren in rood-violet tinten voor titels, accenten enz.
+
+Sla op als "Technovam Kleuren".
+
+4. Sjabloon maken: Technovam.dotx
+Open een nieuw Word-document.
+
+Voeg het volgende toe:
+
+Logo: via Invoegen > Afbeelding
+
+Koptekst: via Invoegen > Koptekst
+
+Voettekst: via Invoegen > Voettekst, voeg paginanummer in via Invoegen > Paginanummer
+
+Tabel: via Invoegen > Tabel: maak een simpele agenda met kolommen zoals Tijd / Onderwerp / Notities
+
+Klik op Bestand > Opslaan als > Bladeren
+
+Bestandstype: Word-sjabloon (*.dotx)
+
+Bestandsnaam: Technovam.dotx

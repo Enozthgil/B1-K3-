@@ -217,3 +217,77 @@ Klik op Bestand > Opslaan als > Bladeren
 Bestandstype: Word-sjabloon (*.dotx)
 
 Bestandsnaam: Technovam.dotx
+
+
+
+
+
+
+
+
+
+hier de sjabloom 
+
+
+ ✅ Stappen om een e-mail-sjabloon in Word te maken (Bijlage 1.3)
+🔧 Stap 1: Open Word
+Open Microsoft Word.
+
+Begin met een leeg document.
+
+🧱 Stap 2: Opmaak toevoegen
+Voeg bovenaan deze onderdelen toe:
+Logo (optioneel): Invoegen > Afbeelding (kies bijv. logo van Technovam)
+
+Koptekst: Invoegen > Koptekst → typ bv.: Technovam B.V. – Afdeling ICT
+
+Voettekst (optioneel): Bedrijfsslogan of paginanummer via Invoegen > Voettekst
+
+📄 Stap 3: Sjabloontekst (voorbeeld e-mail)
+Typ de volgende standaardtekst in het document:
+
+Aan:
+Onderwerp: Advies over Applicatiebeheer op de Laptop
+
+Beste [Naam],
+
+In deze e-mail geef ik u een samenvatting van mijn advies met betrekking tot de installatie, het beheer en het onderhoud van applicaties op de laptop van Technovam.
+
+1. Installatie
+De volgende applicaties zijn succesvol geïnstalleerd:
+
+Microsoft Office (Word, Excel, PowerPoint)
+
+Google Chrome, Notepad++, Microsoft Teams, Bitdefender, etc.
+
+2. Beheer van updates
+Updates worden automatisch of handmatig beheerd afhankelijk van de software. Voor Office zijn updates uitgeschakeld om stabiliteit te garanderen.
+
+3. Herstelopties
+Herstel van de laptop naar basisconfiguratie kan via Reboot Restore RX of systeemherstel.
+
+4. Aanbevolen extra applicaties
+
+Visual Studio Code voor ontwikkeling
+
+Add-ins zoals Grammarly of Office Timeline voor productiviteit
+
+Met vriendelijke groet,
+[Jouw Naam]
+Applicatiebeheerder – Technovam B.V.
+
+💾 Stap 4: Sla op als sjabloon
+Klik op Bestand > Opslaan als > Bladeren
+
+Bij Bestandstype, kies Word-sjabloon (*.dotx)
+
+Geef als naam: Adviesmail_Technovam.dotx
+
+Kies bij voorkeur de map: Documenten > Aangepaste Office-sjablonen
+
+📌 Belangrijk:
+Gebruik stijlen (zoals "Kop 1", "Normaal", enz.) zodat de sjabloon professioneel is.
+
+Maak een screenshot van je opgeslagen .dotx-bestand en voeg dit toe aan je examenmap (als bewijs van oplevering).
+
+Controleer op spelling en netheid.
